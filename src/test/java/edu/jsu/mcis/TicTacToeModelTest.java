@@ -16,11 +16,11 @@ public class TicTacToeModelTest {
 
     @Test
     public void testInitialBoardIsEmpty() {
-        
+      
         for (int row = 0; row < board.getWidth(); row++) {
             
             for (int col = 0; col < board.getWidth(); col++) {
-                
+            
                 assertEquals(TicTacToeModel.Mark.EMPTY, board.getMark(row,col));   
                 
             }

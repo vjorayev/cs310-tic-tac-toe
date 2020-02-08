@@ -85,6 +85,7 @@ public class TicTacToeModel {
         
     }
 	
+    
     public boolean makeMark(int row, int col) {
         
         /* Use "isValidSquare()" to check if the specified location is in range,
